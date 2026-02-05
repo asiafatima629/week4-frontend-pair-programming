@@ -1,0 +1,36 @@
+.phone-input {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  width: 100%;
+}
+
+.phone-input:focus {
+  outline: none;
+  border-color: #9b59b6;
+  box-shadow: 0 0 5px rgba(155, 89, 182, 0.3);
+}
+
+.phone-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.phone-label {
+  color: #7f8c8d;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.phone-number {
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Courier New', monospace;
+}
